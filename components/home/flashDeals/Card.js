@@ -1,5 +1,5 @@
-import { MdFlashOn } from "react-icons/md"
 import Link from "next/link"
+import { MdFlashOn } from "react-icons/md"
 import styles from "./styles.module.scss"
 
 export default function FlashCard({ product }) {
