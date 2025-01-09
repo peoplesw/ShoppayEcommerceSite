@@ -1,3 +1,4 @@
+import React from "react"
 import { MdFlashOn } from "react-icons/md"
 import Countdown from "../../countdown"
 import { flashDealsArray } from "../../../data/home"
@@ -24,7 +25,7 @@ export default function FlashDeals() {
                 FLASH SALE
                 <MdFlashOn />
             </h1>
-            <Countdown />
+            <Countdown date={new Date(2025, 0, 20)}/>
         </div>
         <Swiper
         slidesPerView={1}

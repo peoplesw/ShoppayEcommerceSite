@@ -1,3 +1,4 @@
+import React from "react"
 import Link from "next/link"
 import { MdFlashOn } from "react-icons/md"
 import styles from "./styles.module.scss"
