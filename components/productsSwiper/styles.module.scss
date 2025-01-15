@@ -1,0 +1,48 @@
+.wrapper {
+    margin-top: 1rem;
+
+    .header {
+        height: 50px;
+        background-color: $blue-color;
+        font-size: 18px;
+        color: #fff;
+        font-size: 25px;
+        padding: 1rem 10px;
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    .product {
+        
+        &__image {
+            height: 350px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    
+        &__info {
+            padding: 2px;
+            
+            h1 {
+                font-size: 13px;
+                font-weight: normal;
+                color: #222;
+            }
+
+            span {
+                color: $redish-color;
+            }
+        }    
+    }
+}
+
+.product__info {
+    color: #000;
+    font-size: 14px !important;
+}

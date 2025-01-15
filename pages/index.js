@@ -6,7 +6,8 @@ import Footer from "../components/footer"
 import Main from "../components/home/main"
 import FlashDeals from "../components/home/flashDeals"
 import Category from "../components/home/category"
-import { women_dresses, women_shoes, women_accessories } from "../data/home"
+import ProductsSwiper from "../components/productsSwiper"
+import { women_dresses, women_shoes, women_accessories, women_swiper, gamingSwiper, homeImprovSwiper } from "../data/home"
 import useMediaQuery from "react-responsive"
 import { useSession, signIn, signOut } from "next-auth/react"
 import axios from "axios"
@@ -27,6 +28,9 @@ export default function Home({ country }) {
               <Category header="Shoes / High Heels" products={women_shoes} background="#3c811f"/>
               <Category header="Accessories" products={women_accessories} background="#000"/>
             </div>
+            <ProductsSwiper header="Women's appearal" products={women_swiper} bg="#2f82ff"/>
+            <ProductsSwiper header="For Gamers" products={gamingSwiper} bg="#f15f6f"/>
+            <ProductsSwiper header="House Improvements" products={homeImprovSwiper} bg="#3c811f"/>
           </div>
         </div>
       <Footer country={country}/>
