@@ -23,4 +23,7 @@ const subSchema = new mongoose.Schema({
     }
 })
 
-const SubCategory = mongoose.models.SubCategory || mongoose.model("subCategory", subCategory)
+// const SubCategory = mongoose.models.SubCategory || mongoose.model("subCategory", subSchema)
+const SubCategory = mongoose.models.SubCategory
+
+export default SubCategory

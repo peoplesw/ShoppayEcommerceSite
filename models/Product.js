@@ -1,6 +1,8 @@
 import React from "react"
 import mongoose from "mongoose"
 
+// mongoose.set('strictQuery', false);
+
 const { ObjectId } = mongoose.Schema
 const reviewSchema = new mongoose.Schema({
     reviewBy: {
@@ -93,6 +95,7 @@ const productSchema = new mongoose.Schema({
     },
     subProducts: [
     {
+        sku: String,
         images: [],
         description_images: [],
         color: {
