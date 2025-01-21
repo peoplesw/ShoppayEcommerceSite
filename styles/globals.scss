@@ -21,9 +21,9 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 
-img, video, canvas, svg {
-  max-width: 100%;
-}
+// img, video, canvas, svg {
+//   max-width: 100%;
+// }
 
 a {
   text-decoration: none;
@@ -40,3 +40,4 @@ button {
   border: none;
   outline: none;
 }
+
